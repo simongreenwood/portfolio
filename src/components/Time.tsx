@@ -16,12 +16,12 @@ export default function Time() {
     return () => clearInterval(interval);
   });
   return (
-    <div className="text-lg">
+    <div className="">
       <p>
         it's currently{" "}
         <Link
           href="https://time.is/London"
-          className="bg-slate-900 px-1 py-0.5 border border-gray-600 rounded-md text-md font-light"
+          className="bg-slate-900 px-1 py-0.5 border border-gray-600 rounded-md font-light"
         >
           {time}
         </Link>{" "}
