@@ -18,7 +18,7 @@ export default function Time() {
   return (
     <Link
       href="https://time.is/London"
-      className="bg-slate-900 px-1 py-0.5 border border-gray-500 rounded-md font-light text-amber-300"
+      className="bg-slate-900 px-1 py-0.5 border border-gray-700 rounded-md font-light text-base text-amber-300"
     >
       {time}
     </Link>

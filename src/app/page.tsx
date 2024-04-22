@@ -14,10 +14,10 @@ export default function Home() {
     })
     .split(" ")[2];
   return (
-    <div className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800 min-h-screen h-fit text-amber-50 text-lg">
-      <div className="w-[60%] mx-auto">
+    <div className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-800 min-h-screen h-fit text-amber-50 text-lg tracking-tight">
+      <div className="w-11/12 lg:w-1/2 mx-auto">
         <Navbar />
-        <div className="pl-4 pt-4 tracking-tight">
+        <div className="pl-4 pt-4">
           <h1 className="text-3xl font-semibold">hi, i'm simon 👋</h1>
           <p className="text-2xl">
             full stack web developer and linux enthusiast 🚀
@@ -33,7 +33,6 @@ export default function Home() {
           </div>
           <Skills />
           <Projects />
-          <Links />
         </div>
       </div>
     </div>
