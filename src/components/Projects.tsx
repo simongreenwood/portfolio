@@ -16,7 +16,13 @@ export default function Projects() {
               <p className="text-base">
                 co-owner @ frostsolve, a chrome extension for drfrostmaths.com
                 revolutionising how students across the uk complete their
-                homework.
+                homework. for this project, i learnt how to make a{" "}
+                <span className="text-amber-300">chrome extension</span>, and
+                also made the website using{" "}
+                <span className="text-amber-300">nextjs</span> and{" "}
+                <span className="text-amber-300">tailwindcss</span>. i also
+                worked on the discord bot for the project, which mostly used{" "}
+                <span className="text-amber-300">discord.py</span>.
               </p>
             </Link>
           </li>
@@ -26,11 +32,23 @@ export default function Projects() {
               <p className="text-base">
                 finished the whole fullstackopen course apart from part 10
                 (react native). i did all the exercises from the course and
-                learnt a lot about full stack development, including react,
-                node, express, mongodb, postgresql and graphql as well as other
-                technologies such as linting with eslint, testing with jest and
-                cypress, continuous integration with github actions as well as
-                containerisation with docker.
+                learnt a lot about full stack development, including{" "}
+                <span className="text-amber-300">react</span>,{" "}
+                <span className="text-amber-300">node</span>,{" "}
+                <span className="text-amber-300">express</span>, and{" "}
+                <span className="text-amber-300">graphql</span> as well as other
+                technologies such as linting with{" "}
+                <span className="text-amber-300">eslint</span>, testing with{" "}
+                <span className="text-amber-300">jest</span> and{" "}
+                <span className="text-amber-300">cypress</span>, continuous
+                integration with{" "}
+                <span className="text-amber-300">github actions</span> as well
+                as containerisation with{" "}
+                <span className="text-amber-300">docker</span>. i also learnt
+                how to use multiple databases, including{" "}
+                <span className="text-amber-300">mongodb</span>,{" "}
+                <span className="text-amber-300">postgresql</span> and{" "}
+                <span className="text-amber-300">redis</span>.
               </p>
             </Link>
           </li>
