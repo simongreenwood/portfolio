@@ -6,36 +6,41 @@ export default function Skills() {
       <h3 className="">skills</h3>
       <p className="">here are some of my favourite technologies to use</p>
 
-      <div className="">
+      <div className="bg-slate-900 border border-gray-600 border-lg">
         <div>
           <ul className="">
-            <li>
-              <Link href="https://www.typescriptlang.org/">typescript</Link>
-            </li>
-            <li>
-              <Link href="https://reactjs.org/">react</Link>
-            </li>
-            <li>
-              <Link href="https://nextjs.org/">next.js</Link>
-            </li>
-            <li>
-              <Link href="https://nodejs.org/">node.js</Link>
-            </li>
-            <li>
-              <Link href="https://expressjs.com/">express</Link>
-            </li>
-            <li>
-              <Link href="https://www.mongodb.com/">mongodb</Link>
-            </li>
-            <li>
-              <Link href="https://www.postgresql.org/">postgresql</Link>
-            </li>
-            <li>
-              <Link href="https://www.docker.com/">docker</Link>
-            </li>
-            <li>
-              <Link href="https://www.tailwindcss.com/">tailwindcss</Link>
-            </li>
+            <ul className="space-y-1">
+              <li className="space-x-2">
+                <span>-</span>
+                <Link href="https://typescriptlang.org" target="_blank">
+                  Typescript
+                </Link>
+              </li>
+              <li className="space-x-2">
+                <span>-</span>
+                <Link href="https://python.org" target="_blank">
+                  Python
+                </Link>
+              </li>
+              <li className="space-x-2">
+                <span>-</span>
+                <Link href="https://nextjs.org" target="_blank">
+                  Next.js/React
+                </Link>
+              </li>
+              <li className="space-x-2">
+                <span>-</span>
+                <Link href="https://tailwindcss.com" target="_blank">
+                  Tailwind CSS
+                </Link>
+              </li>
+              <li className="space-x-2">
+                <span>-</span>
+                <Link href="https://www.docker.com/" target="_blank">
+                  Docker
+                </Link>
+              </li>
+            </ul>
           </ul>
         </div>
       </div>
