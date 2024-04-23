@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <div className="pl-2 pt-4 pb-2 border-b border-amber-50">
-      <button className="text-xl text-amber-50">Simon Greenwood</button>
-      <div className="float-right pb-2 pr-2">
+      <span className="text-xl text-amber-50 w-fit">Simon Greenwood</span>
+      <div className="float-right w-fit pr-2 top-0">
         <Link
           href="https://discord.com/users/742735986878054451"
           target="_blank"

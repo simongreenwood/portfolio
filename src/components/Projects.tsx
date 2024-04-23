@@ -5,7 +5,7 @@ export default function Projects() {
     <div className="">
       <h3 className="text-2xl pt-8 font-semibold">projects/experience</h3>
       <p className="pb-2">
-        here are some of the projects i've worked on/courses i've done. feel
+        here are some of the projects i&apos;ve worked on/courses i&apos;ve done. feel
         free to check them out and let me know what you think.
       </p>
       <div className="bg-slate-900 border border-gray-600 rounded-lg p-4 ">
