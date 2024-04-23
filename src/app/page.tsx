@@ -33,6 +33,9 @@ export default function Home() {
           </div>
           <Skills />
           <Projects />
+          <div className="text-base font-light text-gray-500 text-center px-5 pb-4 pt-2">
+            made with ❤️ by simon
+          </div>
         </div>
       </div>
     </div>
